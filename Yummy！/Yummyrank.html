@@ -1,92 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>排行榜</title>
-    <style>
-        div.Top {
-        height: 50px;
-        width: 100%;
-        background-color: #80d1c8;
-     }
 
-     div.Below {
-        height: 1900px;
-        width: 100%;
-        background-color: #f8f5d6;
-     }
-     div.mainbody {
-        height: 1670px;
-        width: 50%;
-        background-color: #492d22;
-        text-align: center;
-        margin-left: 25%;
-     }
-     a.top {
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>排行榜</title>
+   <style>
+      div.Top {
+         height: 50px;
+         width: 100%;
+         background-color: #80d1c8;
+      }
+
+      div.Below {
+         height: 1900px;
+         width: 100%;
+         background-color: #f8f5d6;
+      }
+
+      div.mainbody {
+         height: 1670px;
+         width: 50%;
+         background-color: #492d22;
+         text-align: center;
+         margin-left: 25%;
+      }
+
+      a.top {
          color: #f8f5d6;
          float: right;
          padding: 15px;
       }
+
       h1.name {
          color: #f8f5d6;
          text-align: center;
          padding: 30px;
          display: inline;
       }
-      div.article{
-        height: 500px;
-        background-color: #d8c7b5;
-        width: 94%;
-        margin-left: 3%;
+
+      div.article {
+         height: 500px;
+         background-color: #d8c7b5;
+         width: 94%;
+         margin-left: 3%;
+         margin-top: 20px;
       }
-      h2{
-        color: #80d1c8;
+
+      h2 {
+         color: #80d1c8;
          margin-left: 45%;
          padding: 30px;
          display: inline;
       }
-      h3{
-        color: #80d1c8;
+
+      h3 {
+         color: #80d1c8;
          margin-left: 60%;
          padding: 30px;
          display: inline;
       }
-      p.title{
-        color: black;
+
+      p.title {
+         color: black;
+         margin-right: 580px;
+         display: block;
       }
-    </style>
+      div.left {
+         color: black;
+         float: left;
+         height: 400px;
+         width: 200px;
+         margin-left: 2%;
+         text-align: left;
+         margin-top: 20px;
+      }
+
+      div.right {
+         float: right;
+         width: 300px;
+         color: black;
+         margin-right: 10%;
+         text-align:justify;
+      }
+   </style>
 </head>
+
 <body>
-     <div class="Top">
-        <a class="top" href="https://www.bilibili.com/" target="_blank">个人主页</a>
-        <a class="top" href="https://www.bilibili.com/" target="_blank">娱乐</a>
-        <a class="top" href="https://www.bilibili.com/" target="_blank">科普</a>
-        <a class="top" href="http://www.musictool.top/" target="_blank">排行榜</a>
-        <a class="top" href="https://mp.weixin.qq.com/" target="_blank">首页</a>
-        <a class="top" href="https://mp.weixin.qq.com/" target="_blank">登入/注册</a>
-        <h1 class="name">Yummy</h1>
-    <div class="Below">
-        <br></br>
-        <h2>人气热门</h2>
-        <br></br>
-        <h3>日期：2022/11/1<h3>
-       <div class="mainbody">
-        <br></br>
-       <div class="article">
-          <p class="title">海底捞</p>
-          
-       </div>
-       <div class="article">
-        <p class="title">校园干锅</p>
-        
-     </div>
-     <div class="article">
-        <p class="title">海伦司</p>
-        
-     </div>
-       </div>
-    </div>
+   <div class="Top">
+      <a class="top" href="https://www.bilibili.com/" target="_blank">个人主页</a>
+      <a class="top" href="https://www.bilibili.com/" target="_blank">娱乐</a>
+      <a class="top" href="https://www.bilibili.com/" target="_blank">科普</a>
+      <a class="top" href="http://www.musictool.top/" target="_blank">排行榜</a>
+      <a class="top" href="https://mp.weixin.qq.com/" target="_blank">首页</a>
+      <a class="top" href="https://mp.weixin.qq.com/" target="_blank">登入/注册</a>
+      <h1 class="name">Yummy</h1>
+      <div class="Below">
+         <br></br>
+         <h2>人气热门</h2>
+         <br></br>
+         <h3>日期：2022/11/1<h3>
+               <div class="mainbody">
+                  <br></br>
+                  <div class="article">
+                     <p class="title">海底捞</p>
+                     <div class="left">
+                        <img class="picture" src="haidilao.png" width="300px" height="300px">
+                        <p>作者名称：</p>
+                        <p>作者介绍：</p>
+                     </div>
+                     <div class="right">
+                        <p>人气值：0</p>
+                        <p>点赞数：0</p>
+                        <p>收藏数：0</p>
+                        <p>所属分类：火锅</p>
+                        <p>推文摘要：因为食客很多，经常要排队，餐厅就为等待的顾客提供免费美甲，护手等服务；海底捞有十多种锅底，味道地道，特色突出。价格方面会因地区的不同而有差异。</p>
+                     </div>
+                  </div>
+                  <div class="article">
+                     <p class="title">校园干锅</p>
+                     <div class="left">
+                        <img class="picture" src="ganguo.jpg" width="300px" height="300px">
+                        <p>作者名称：</p>
+                        <p>作者介绍：</p>
+                     </div>
+                     <div class="right">
+                        <p>人气值：0</p>
+                        <p>点赞数：0</p>
+                        <p>收藏数：0</p>
+                        <p>所属分类：熟食</p>
+                        <p>推文摘要：干锅，又名干锅菜，川菜的制作方法之一，起源于四川省。其特点是口味麻辣鲜香。随后在湖南、湖北、江西一带流行，因为这几地的口味较为接近，随后流行于全国。</p>
+                        
+                     </div>
+                  </div>
+                  <div class="article">
+                     <p class="title">海伦司</p>
+                     <div class="left">
+                        <img class="picture" src="hailunsi1.jfif" width="300px" height="300px">
+                        <p>作者名称：</p>
+                        <p>作者介绍：</p>
+                     </div>
+                     <div class="right">
+                        <p>人气值：0</p>
+                        <p>点赞数：0</p>
+                        <p>收藏数：0</p>
+                        <p>所属分类：酒馆</p>
+                        <p>推文摘要：Helens海伦司 ，致力于打造年轻人的线下社交平台。Helens在装修上融入了美国西部牛仔元素、东南亚风情元素、中国土家元素，镂空雕花灯饰、轻盈典雅纱幔、撞色搭配方形装饰、木刻雕花等。音乐上选取新潮的欧美音乐，产品上提供超具性价比的保真酒水和美味小吃，最终打造成了独一无二的聚会空间。</p>
+                     </div>
+                  </div>
+               </div>
+      </div>
 </body>
+
 </html>
